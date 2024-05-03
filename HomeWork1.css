@@ -1,0 +1,70 @@
+.ContainerTitle{
+    text-align: center;
+    color: #7a49d8;
+    font-family: WindowsFont, sans-serif;
+}
+
+.Image1{
+    display: flex;
+    justify-content: center;
+}
+.Image1 img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.Parent{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #faf4ff;
+    margin-top: 50px;
+}
+.content {
+    background-color: #7a49d8; /* Màu nền khác */
+    width: 80%;
+    padding: 20px;
+    margin-top: 50px; /* Khoảng cách từ đỉnh trang web */
+    color:aliceblue;
+    font-size: 12px;
+    font-family: WindowsFont, sans-serif;
+    margin: auto;
+    border-radius: 8px;
+}
+@font-face {
+  font-family: "WindowsFont";
+  src: url(file:///C:/Windows/Font/arial.ttf);
+}
+
+/* Selector :nth-child() cho phép bạn lựa chọn các phần tử con của phần tử cha dựa trên 
+vị trí của chúng trong danh sách các phần tử con. 
+Trong trường hợp này, bạn đang lựa chọn các phần tử 
+<h3> có vị trí là 2, 4, 5, 7, 8, 10 và 11 
+trong danh sách phần tử con của phần tử cha. */
+h3:nth-child(2),
+h3:nth-child(4),
+h3:nth-child(5),
+h3:nth-child(7),
+h3:nth-child(8),
+h3:nth-child(10),
+h3:nth-child(11)
+{
+    border-left : 3px solid yellow;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.btn button{
+  background-color: yellow;
+  border-radius: 4px;
+  margin-top: 10px;
+  border-color: yellow;
+}
+.x{
+  text-align: center;
+  margin-top: 12px;
+}
